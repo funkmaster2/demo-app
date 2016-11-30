@@ -1,0 +1,24 @@
+{
+  "name": "danny-demo-app",
+  "version": "0.2.0",
+  "description": "Danny's test app",
+  "main": "test.js",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "lodash": "^4.17.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/funkmaster2/demo-app.git"
+  },
+  "author": "Danny Funk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/funkmaster2/demo-app/issues"
+  },
+  "homepage": "https://github.com/funkmaster2/demo-app#readme"
+}
