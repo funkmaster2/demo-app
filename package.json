@@ -3,7 +3,10 @@
   "version": "0.0.1",
   "description": "Danny's test app",
   "main": "test.js",
-  "dependencies": {},
+  "dependencies": {
+    "lodash": "^4.17.2",
+    "tap": "^8.0.1"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "tap test/*.js"
