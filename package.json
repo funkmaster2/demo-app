@@ -4,6 +4,7 @@
   "description": "Danny's test app",
   "main": "test.js",
   "dependencies": {
+    "colors": "^1.1.2",
     "lodash": "^4.17.2"
   },
   "devDependencies": {},
