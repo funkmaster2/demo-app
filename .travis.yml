@@ -1,3 +1,8 @@
 language: node_js
 script:
 - node test.js
+deploy:
+    provider: npm
+    email: "danny.funk@ni.com"
+    api_key:
+        secure: Xk2x/Y62GUCibXerCAQ4sQ2VxQSHgSZ9osHldQoI3iB1iJCWtO5tvqKW819tjdfEhI3TyyOuXVx1fPeYvxsgZpJQC
