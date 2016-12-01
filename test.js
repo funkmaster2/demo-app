@@ -6,4 +6,4 @@ console.log(output);
 exports.printMsg = function(color){
     console.log("A test log from Danny" [color]);
 };
-console.log("another output");
+console.log("another output and some");
