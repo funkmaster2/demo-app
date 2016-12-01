@@ -1,6 +1,6 @@
 {
   "name": "danny-demo-app",
-  "version": "0.2.3",
+  "version": "1.0.0",
   "description": "Danny's test app",
   "main": "test.js",
   "dependencies": {
