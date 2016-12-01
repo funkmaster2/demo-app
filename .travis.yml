@@ -2,10 +2,11 @@ language: node_js
 script:
 - node test.js
 deploy:
-    provider: npm
-    email: "danny.funk@ni.com"
-    api_key:
-        secure: Xk2x/Y62GUCibXerCAQ4sQ2VxQSHgSZ9osHldQoI3iB1iJCWtO5tvqKW819tjdfEhI3TyyOuXVx1fPeYvxsgZpJQC
-    on:
-        tags: true
-        repo: funkmaster2/demo-app
+  provider: npm
+  email: danny.funk@ni.com
+  api_key:
+    secure: gvBxNcAdiAnEPsaITM0ra0gpiRMROFz9gnrzKNgx7dHCkmkZloQ2E/BZB4DwrN69gKmVMpzuF/WjO8BiC9UH/bDSeyrNu4vsUlLZSsm4dw+a+63er0ZjfCHcvmAoZbKzd8Ju541riqjaZ8JAGRxMWzbJzV4aC3AgZ6zgrxoDRE23XFzU94GDpWe0B/qLgaq614/ms55Zob+L2BCukVrDHJTHR66vE0M7kq50xvGDZj7Q+/pXHj907+MoEIjv7qzc2ziyTtmtXr6kJEmlFf7pPGfhCEee8s/4KLLHIVArDQ/vs0Aj3eUsbdgW/ghhNs4K577yLgGxreqTli096hgEMNUfAEcqRk7wZua79KxaSf/O7Pk+RYf0bMGK+oAz8Sk4vrc3EToVRdfaMwvlmfTZHFY0FbkU01IrKEMbXTW8WSUvDBZxqXfauFDnLbnKII2l3POfet3JUp6t14VIKXkLa4Z7sXpJNbExoPhPXXn1xzRI6ZFNZ21BzmKSL7uvzyIWudbxQ/qSzEkLwVYB9/ajVwpNAp6NiZXm8iajdv+9PtIyMZ5t3NGW5sz/AvNR7g9qOUhyRHojr4ZXi9qxzR6pT0mqPhF1nRhyXVPPJLXRNC4JFuf+5StpEtaQ4nSBcyp3qkjaC5gd3ukYXd9zsLJtL24Wcev2yxFM+W1GBe8I+nY=
+  on:
+    tags: true
+    repo: funkmaster2/demo-app
+    all_branches: true
